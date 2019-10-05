@@ -7,24 +7,136 @@
 } */
 
 body {
-font-family: 'Special Elite', cursive;
+font-family: 'M PLUS 1p', sans-serif;
 }
 
-.alert-container {
+.alert-container .col-12 {
+padding-left: 0;
+padding-right: 0;
+}
 
+.site-wide-alert {
+border-radius: 0;
+margin-bottom: 0;
+padding: 5px 15px;
+    background-color: #dcb026;
+    border-color: #dcb026;
 }
 
 .callout-container { height: 100vh;
-    background: url(../img/bg.jpg) no-repeat bottom right fixed;
+    background: url(../img/bg.jpg) no-repeat top right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+
+}
 .quotes-container {
 
 }
 .features-container {
 
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+color: white;
+font-weight: bold;
+margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #ebf217
+}
+
+.jumbotron small {
+    font-size: 70%;
+    font-style: italic;
+    color: #f7ecad;;
+}
+
+/* Block dividers */
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+   }
+
+.block-divider--orange {
+     background-color: #cbce16;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #ce4f34;
+    border-color: #ce4f34;
+}
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left:0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25)
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
 }

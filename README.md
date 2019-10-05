@@ -10,6 +10,10 @@ Use of a CDN is not required, but can be a helpfull tool.
 ##The backup folder
 I have created a backup folder to store the historical changes to the site layout.
 backup1_index.html is the file that has the code for the basic bootstrap layout.
+backup2_index.html contains part 1 of the custumized code for
+>Course  Bootstrapping Your Next Big Idea With Bootstrap 4  Beyond Bootstrap  Updating Our Callout
+
+
 All changes after will be stored in the follow up's to this file, a.i. backup2_index.html, backup3_index.html, etc. etc.
 This will make it easy to track back the changes made to the code and see the site in phases.
 In order to do this the files can be named back to index.html, to serve as a root file.
